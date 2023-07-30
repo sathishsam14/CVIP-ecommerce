@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.search {
+    width: 450px;
+}
+
+
+.span_head {
+    color: #F7710D;
+    font-size: 55px;
+}
+
+.nav_head {
+    font-size: 18px;
+    color: black;
+}
+
+.brand_head {
+    font-family: "Roboto";
+    font-size: 53px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.product_detail {
+    width: 30vh;
+    height: 30vh;
+    margin: 30px;
+
+}
+
+.product_div {
+    border-radius: 16px;
+
+}
+
+.con_div {
+    height: 30vh;
+}
+
+.carousel {
+    height: 35vh;
+}
+
+.share_icon {
+    margin-left: auto;
+    height: 30px;
+    width: 30px;
+}
+
+.product_head {
+    color: #030303;
+    font-family: "Roboto";
+    text-align: start;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.pro_para {
+    font-family: "Roboto";
+    text-align: start;
+    font-size: 20px;
+}
+
+.span_para {
+    color: #030303;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.span_two {
+    text-decoration: line-through;
+}
