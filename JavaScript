@@ -1,0 +1,214 @@
+let oneImage = document.getElementById("image1");
+let twoImage = document.getElementById("image2");
+let threeImage = document.getElementById("image3");
+let fourImage = document.getElementById("image4");
+let fiveImage = document.getElementById("image5");
+let sixImage = document.getElementById("image6");
+let sevenImage = document.getElementById("image7");
+let eightImage = document.getElementById("image8");
+let nineImage = document.getElementById("image9");
+let tenImage = document.getElementById("image10");
+let elevenImage = document.getElementById("image11");
+let twelveImage = document.getElementById("image12");
+
+let onehead = document.getElementById("head1");
+let twohead = document.getElementById("head2");
+let threehead = document.getElementById("head3");
+let fourhead = document.getElementById("head4");
+let fivehead = document.getElementById("head5");
+let sixhead = document.getElementById("head6");
+let sevenhead = document.getElementById("head7");
+let eighthead = document.getElementById("head8");
+let ninehead = document.getElementById("head9");
+let tenhead = document.getElementById("head10");
+let elevenhead = document.getElementById("head11");
+let twelvehead = document.getElementById("head12");
+
+
+let onepara = document.getElementById("para1");
+let twopara = document.getElementById("para2");
+let threepara = document.getElementById("para3");
+let fourpara = document.getElementById("para4");
+let fivepara = document.getElementById("para5");
+let sixpara = document.getElementById("para6");
+let sevenpara = document.getElementById("para7");
+let eightpara = document.getElementById("para8");
+let ninepara = document.getElementById("para9");
+let tenpara = document.getElementById("para10");
+let elevenpara = document.getElementById("para11");
+let twelvepara = document.getElementById("para12");
+
+
+let spanOne = document.getElementById("spanOne");
+let spanTwo = document.getElementById("spanTwo");
+let spanThree = document.getElementById("spanThree");
+let spanFour = document.getElementById("spanFour");
+let spanFive = document.getElementById("spanFive");
+let spanSix = document.getElementById("spanSix");
+let spanSeven = document.getElementById("spanSeven");
+let spanEight = document.getElementById("spanEight");
+let spanNine = document.getElementById("spanNine");
+let spanTen = document.getElementById("spanTen");
+let spanEleven = document.getElementById("spanEleven");
+let spanTwelve = document.getElementById("spanTwelve");
+
+
+let spanEleOne = document.getElementById("spanEleOne");
+let spanEleTwo = document.getElementById("spanEleTwo");
+let spanEleThree = document.getElementById("spanEleThree");
+let spanEleFour = document.getElementById("spanEleFour");
+let spanEleFive = document.getElementById("spanEleFive");
+let spanEleSix = document.getElementById("spanEleSix");
+let spanEleSeven = document.getElementById("spanEleSeven");
+let spanEleEight = document.getElementById("spanEleEight");
+let spanEleNine = document.getElementById("spanEleNine");
+let spanEleTen = document.getElementById("spanEleTen");
+let spanEleEleven = document.getElementById("spanEleEleven");
+let spanEleTwelve = document.getElementById("spanEleTwelve");
+
+
+
+function Drums() {
+    drumsPart;
+
+}
+
+function Keyboard() {
+    oneImage.src = "https://in.yamaha.com/en/files/00-cvp-809gp-index_120d1a0b413ae5b1f7e1954b38b5df66.jpg?impolicy=resize&imwid=396&imhei=396";
+    spanOne.textContent = "190,000 ";
+    onehead.textContent = "Yamaha CLP-745R";
+    spanEleOne.textContent = "199,000";
+
+
+    twoImage.src = "https://images.reverb.com/image/upload/s--6mxzLZxS--/a_0/f_auto,t_supersize/v1687450923/hiju86uisnuvi5rjrs5s.jpg";
+    spanTwo.textContent = "180,000 ";
+    twohead.textContent = "Korg SE Platinum";
+    spanEleTwo.textContent = "191,000";
+
+
+    threeImage.src = "https://www.casio.com/content/dam/casio/product-info/locales/in/en/emi/product/C/CT/CTX/CT-X9000IN/localassets/CT-X9000IN_03.PNG";
+    spanThree.textContent = "26,000";
+    threehead.textContent = "Casio CT-X9000IN";
+    spanEleThree.textContent = "30,000";
+
+
+    fourImage.src = "https://7132afa424c2f1a2ab6d-54d68a14e2e7c1f76563a2d8c3e9fd82.ssl.cf2.rackcdn.com/1856/slug_image/VortexWireless2_Ortho_Black_web.png";
+    spanFour.textContent = "29,000";
+    fourhead.textContent = "Alesis Vortex Wireless";
+    spanEleFour.textContent = "35,000";
+
+    fiveImage.src = "https://m.media-amazon.com/images/I/616XDcoF3rL._AC_CR0%2C0%2C0%2C0_SX960_SY720_.jpg";
+    spanFive.textContent = "22,999 ";
+    fivehead.textContent = "Kadence DP01";
+    spanEleFive.textContent = "39,000";
+
+
+
+    sixImage.src = "https://m.media-amazon.com/images/I/61eEz7g96GL._SX679_.jpg";
+    spanSix.textContent = "76,900";
+    sixhead.textContent = "Roland";
+    spanEleSix.textContent = "86,875";
+
+    sevenImage.src = "https://cdn11.bigcommerce.com/s-itgb7ssiy1/images/stencil/2000w/products/180/461/LK61-left-2400-x-2400__54492.1678872265.jpg?c=1";
+    spanSeven.textContent = "26,400";
+    sevenhead.textContent = "Novation MK13";
+    spanEleSeven.textContent = "29,500";
+
+
+    eightImage.src = "https://steinwayspokane.com/wp-content/uploads/2023/02/Black-with-Macassar.png";
+    spanEight.textContent = "20,89,000";
+    eighthead.textContent = "Steinway GP156";
+    spanEleEight.textContent = "22,00,000";
+
+    nineImage.src = "https://www.studiologic-music.com/products/numa_x_piano_gt/p1_2k.webp";
+    spanNine.textContent = "57,499";
+    ninehead.textContent = "studiologic";
+    spanEleNine.textContent = "61,000";
+
+    tenImage.src = "https://www.dexibell.com/app/uploads/2022/11/VIVO-S10L_34_FRONT_DX.jpg";
+    spanTen.textContent = "46,385";
+    tenhead.textContent = "Dexibell S10";
+    spanEleTen.textContent = "57,499";
+
+    elevenImage.src = "https://kurzweil.com/wp-content/uploads/2019/11/img_0627-400x267.jpg";
+    spanEleven.textContent = "61,000";
+    elevenhead.textContent = "Kurzweil PC4";
+    spanEleEleven.textContent = "63,000";
+
+    twelveImage.src = "https://m.media-amazon.com/images/I/51nep2L5L2S._SX679_.jpg";
+    spanTwelve.textContent = "24,690";
+    twelvehead.textContent = "Nektar";
+    spanEleTwelve.textContent = "28,654";
+
+}
+
+function Guitar() {
+    oneImage.src = "https://m.media-amazon.com/images/I/61bY9-2kvpL._AC_CR0%2C0%2C0%2C0_SX960_SY720_.jpg";
+    spanOne.textContent = "8,790";
+    onehead.textContent = "Yamaha C40 classical";
+    spanEleOne.textContent = "10,490";
+
+
+    twoImage.src = "https://m.media-amazon.com/images/I/41kF9JWFXEL._SX679_.jpg";
+    spanTwo.textContent = "2,699";
+    twohead.textContent = "Kadence Medellin";
+    spanEleTwo.textContent = "6,999";
+
+
+    threeImage.src = "https://m.media-amazon.com/images/I/31ejas8CRpL.jpg";
+    spanThree.textContent = "55,176";
+    threehead.textContent = "Ibanez RG370AHMZ";
+    spanEleThree.textContent = "58,080";
+
+
+    fourImage.src = "https://m.media-amazon.com/images/I/51Vf6zP2bmL._SX679_.jpg";
+    spanFour.textContent = "13,999";
+    fourhead.textContent = "Kadence Chronicle Series";
+    spanEleFour.textContent = "17,600";
+
+
+
+    fiveImage.src = "https://m.media-amazon.com/images/I/41wGBxDx4cL._SX679_.jpg";
+    spanFive.textContent = "7,999";
+    fivehead.textContent = "Vault ST1";
+    spanEleFive.textContent = "10,999";
+
+    sixImage.src = "https://m.media-amazon.com/images/I/71UGr-1YOkL._SY879_.jpg";
+    spanSix.textContent = "28,479";
+    sixhead.textContent = "Schecter SGR C-5";
+    spanEleSix.textContent = "29,580";
+
+
+
+    sevenImage.src = "https://m.media-amazon.com/images/I/61Jqr4zq34L._SX679_.jpg";
+    spanSeven.textContent = "30,999";
+    sevenhead.textContent = "Cort Artisa";
+    spanEleSeven.textContent = "36,000";
+
+
+    eightImage.src = "https://m.media-amazon.com/images/I/71FhL5DdJbL._SY879_.jpg";
+    spanEight.textContent = "16,700";
+    eighthead.textContent = "Sterling ";
+    spanEleEight.textContent = "19,800";
+
+    nineImage.src = "https://m.media-amazon.com/images/I/51PEROi+aVL._SX679_.jpg";
+    spanNine.textContent = "12,780";
+    ninehead.textContent = "Hongzer";
+    spanEleNine.textContent = "14,790";
+
+    tenImage.src = "https://m.media-amazon.com/images/I/61TJvDHAR8L._SX679_.jpg";
+    spanTen.textContent = "66,600";
+    tenhead.textContent = "CORT A5";
+    spanEleTen.textContent = "70,500";
+
+    elevenImage.src = "https://m.media-amazon.com/images/I/61736IvHR-L._SY879_.jpg";
+    spanEleven.textContent = "3,599";
+    elevenhead.textContent = "Hophner V500K";
+    spanEleEleven.textContent = "4,800";
+
+    twelveImage.src = "https://m.media-amazon.com/images/I/51d8o9byilL._SX679_.jpg";
+    spanTwelve.textContent = "45,467";
+    twelvehead.textContent = "Nektar";
+    spanEleTwelve.textContent = "51,200";
+
+}
